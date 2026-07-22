@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-include('connect.php');
+// include('connect.php');
 
 $username = $_POST['username'];
 $mobile = $_POST['mobile'];
@@ -42,4 +42,5 @@ if ($result) {
     die("Database Error: " . mysqli_error($con));
 }
 }
+
 ?>
